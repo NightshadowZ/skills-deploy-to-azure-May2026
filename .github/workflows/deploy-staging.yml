@@ -12,7 +12,8 @@ env:
   DOCKER_IMAGE_NAME: NightshadowZ-azure-ttt
   AZURE_WEBAPP_NAME: NightshadowZ-ttt-app
   ###############################################
-
+  ######
+  
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
